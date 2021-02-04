@@ -1,0 +1,8 @@
+include *.txt *.ini *.cfg *.rst
+recursive-include django_clickcounter *.ico *.png *.css *.gif *.jpg *.txt *.js *.html *.xml
+include LICENSE
+include README.md
+recursive-include django_clickcounter/migrations *.py
+recursive-include django_clickcounter/templates *
+recursive-include django_clickcounter/locale *
+recursive-include django_clickcounter/api *
